@@ -11,9 +11,7 @@ const About = () => (
         >
           Hi, I am Abdulrasheed. A Frontend Developer from Nigeria.
         </p>
-        <p
-          className={`${section.textPaddingY} ${section.text}`}
-        >
+        <p className={`${section.textPaddingY} ${section.text}`}>
           My passion for building interactive websites has led me to become a
           dedicated and hard-working front-end developer with over a year of
           experience. My proven track record of designing interactive and
