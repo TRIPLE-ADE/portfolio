@@ -2,8 +2,9 @@ import { section } from "../style";
 import { Projects } from "../constants";
 const Project = () => (
   <section id="projects">
-    <h2 className={`${section.heading} ${section.MarginBottom}`}> Project </h2>
+    <h2 className={`${section.heading} ${section.MarginY}`}> Project </h2>
     <div className={`${section.layout}`}>
+      
       {Projects.map((project) => (
         <div key={project.id}>
           <div className="overflow-hidden hover:cursor-pointer hover:scale-105">

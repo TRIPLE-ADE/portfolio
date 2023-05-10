@@ -1,4 +1,4 @@
-import { navLinks } from "../constants";
+// import { navLinks } from "../constants";
 import { logo, darkLogo, sun, moon1 } from "../assets";
 import PropTypes from "prop-types";
 
@@ -20,7 +20,7 @@ function NavBar({ handleClick, darkMode }) {
         />
         <label
           htmlFor="mode-switch"
-          className="bg-deep-blue dark:bg-gray w-10 h-5 block relative shadow-inner rounded-xl dark:before:bg-deep-blue"
+          className="bg-deep-blue dark:bg-gray w-10 h-5 block relative shadow-inner rounded-xl dark:before:bg-deep-blue label"
           onClick={handleClick}
         >
           <img
