@@ -5,7 +5,7 @@ const Contact = () => {
       <section id="contact">
         <h2 className={`${section.heading} ${section.MarginY}`}> Contact </h2>
         {/* form section start */}
-        <form method="POST" name="contact" data-netlify="true" className="grid sm:grid-cols-2 gap-10 md:w-[80%] m-auto ">
+        <form method="POST" name="contact" data-netlify="true" className="grid sm:grid-cols-2 gap-10 md:w-[80%] m-auto" autoComplete="OFF">
           <div className={`${section.formGroup}`}>
             <label htmlFor="first-name" className={`${section.formLabel}`}>FirstName</label>
             <input type="text" name="first-name" className={`${section.formInput}`}/>
