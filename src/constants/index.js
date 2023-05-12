@@ -60,7 +60,7 @@ export const Projects = [
         live: '',
     },
     {
-        id: 1,
+        id: 2,
         image: project,
         name: 'Project',
         work: 'Frontend Development',
@@ -68,7 +68,7 @@ export const Projects = [
         live: '',
     },
     {
-        id: 1,
+        id: 3,
         image: project,
         name: 'Project',
         work: 'Frontend Development',
@@ -76,7 +76,7 @@ export const Projects = [
         live: '',
     },
     {
-        id: 1,
+        id: 4,
         image: project,
         name: 'Project',
         work: 'Frontend Development',
@@ -84,7 +84,7 @@ export const Projects = [
         live: '',
     },
     {
-        id: 1,
+        id: 5,
         image: project,
         name: 'Project',
         work: 'Frontend Development',
@@ -92,7 +92,7 @@ export const Projects = [
         live: '',
     },
     {
-        id: 1,
+        id: 6,
         image: project,
         name: 'Project',
         work: 'Frontend Development',

@@ -22,7 +22,7 @@ const Hero = () => (
         <a
           href={resume}
           download
-          className={`${section.button} button border-2 `}
+          className={`${section.button} button `}
         >
           Download CV
         </a>

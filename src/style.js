@@ -6,9 +6,11 @@ export const section = {
     textLarge: 'text-2xl sm:text-3xl',
     textSmall: 'text-lg sm:text-xl',
     text: 'text-deep-green font-poppins text-justify sm:text-center text-base sm:text-lg',
-    button: 'rounded-md border text-sm py-3 px-7 border-deep-green my-5 block w-fit z-10 relative font-quicksand font-extrabold hover:cursor-pointer text-deep-blue dark:text-gray',
+    button: 'rounded-md border border-2 text-sm py-3 px-7 border-deep-green my-5 block w-fit z-10 relative font-quicksand font-extrabold hover:cursor-pointer text-deep-blue dark:text-gray',
     MarginY: 'mb-10 mt-16',
-    layout: 'grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-10',
+    layout: 'grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-10',
     formGroup: 'grid text-deep-blue dark:text-gray',
     formInput: 'bg-gray-100 dark:bg-deep-blue outline-none',
+    formLabel : 'font-bold',
+    formLine: ' border-[0.8px] border-deep-blue dark:border-gray'
 }
