@@ -9,8 +9,8 @@ export const section = {
     button: 'rounded-md border border-2 text-sm py-3 px-7 border-deep-green my-5 block w-fit z-10 relative font-quicksand font-extrabold hover:cursor-pointer text-deep-blue dark:text-gray',
     MarginY: 'mb-10 mt-16',
     layout: 'grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-10',
-    formGroup: 'grid text-deep-blue dark:text-gray',
+    formGroup: 'grid text-deep-blue dark:text-deep-gray',
     formInput: 'bg-gray-100 dark:bg-deep-blue outline-none',
     formLabel : 'font-bold',
-    formLine: ' border-[0.8px] border-deep-blue dark:border-gray'
+    formLine: ' border-[0.8px] border-deep-blue dark:border-deep-gray'
 }

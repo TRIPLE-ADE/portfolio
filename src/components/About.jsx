@@ -1,4 +1,4 @@
-import { skills } from "../constants";
+import { Skills } from "../constants";
 import { section } from "../style";
 // import { divider } from "../assets"
 const About = () => (
@@ -27,7 +27,7 @@ const About = () => (
       <div
         className={`grid  grid-cols-[repeat(auto-fill,minmax(250px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] sm:w-[90%] md:w-[80%] m-auto`}
       >
-        {skills.map((skill) => (
+        {Skills.map((skill) => (
           <div key={skill.id} className="flex items-center">
             <img src={skill.icon} alt={skill.text} className="w-24" />
             <p className={`${section.textLgDefault} ${section.textLarge}`}>

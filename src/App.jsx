@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavBar, Hero, About, Project, Contact } from "./components";
+import { NavBar, Hero, About, Project, Contact, Footer } from "./components";
 import { section } from "./style";
 
 function App() {
@@ -19,8 +19,9 @@ function App() {
           <Project />
           <Contact />
         </main>
-        <footer className={`${section.padding}`}>
-          
+        <footer>
+          <hr />
+          <Footer/>
         </footer>
       </div>
     </div>

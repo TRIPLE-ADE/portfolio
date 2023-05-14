@@ -1,4 +1,4 @@
-// import { navLinks } from "../constants";
+import { NavLinks } from "../constants";
 import { logo, darkLogo, sun, moon1 } from "../assets";
 import PropTypes from "prop-types";
 
@@ -9,9 +9,9 @@ function NavBar({ handleClick, darkMode }) {
         <img src={darkMode ? logo : darkLogo} alt="Triple Logo" />
       </div>
       <div className="flex ml-auto items-center gap-7">
-        {/* <ul className='flex gap-4 text-deep-blue  dark:text-gray font-quicksand font-bold'>
-                {navLinks.map(navLink => (<li key={navLink.id}><a href={navLink.link} >{navLink.title}</a></li>))}
-            </ul> */}
+        <ul className='flex gap-4 text-deep-blue  dark:text-gray font-quicksand font-bold'>
+                {NavLinks.map(navLink => (<li key={navLink.id}><a href={navLink.link} >{navLink.title}</a></li>))}
+            </ul>
         <input
           type="checkbox"
           name="mode-switch"
