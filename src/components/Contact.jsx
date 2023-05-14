@@ -31,6 +31,7 @@ const Contact = () => {
         className="grid sm:grid-cols-2 gap-10 md:w-[80%] m-auto"
         autoComplete="OFF"
         onSubmit={handleSubmit}
+        method="POST"
       >
         <div className={`${section.formGroup}`}>
           <label 
