@@ -9,11 +9,17 @@ const Footer = () => (
     </div>
     <div className="flex sm:ml-auto gap-10">
       {FootersLink.map((FooterLink) => {
-        return(
-          <a key={FooterLink.id} href={FooterLink.link}>
+        return (
+          <a
+            key={FooterLink.id}
+            href={FooterLink.link}
+            target="_blank"
+            rel="noreferrer"
+            className="text-xl sm:text-2xl"
+          >
             {FooterLink.icon}
           </a>
-        )
+        );
       })}
     </div>
   </section>

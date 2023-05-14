@@ -106,17 +106,17 @@ export const FootersLink = [
     {
         id: 1,
         icon: <FaTwitter/>,
-        link: 'https://'
+        link: 'https://twitter.com/Triple123A'
     },
     {
         id: 2,
         icon: <FaLinkedinIn/>,
-        link: 'https://'
+        link: 'https://www.linkedin.com/in/abdulsalam-dev'
     },
     {
         id: 3,
         icon: <FaGithub/>,
-        link: 'https://'
+        link: 'https://github.com/TRIPLE-ADE'
     },
 ]
 
