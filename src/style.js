@@ -10,7 +10,7 @@ export const section = {
     MarginY: 'mb-10 mt-16',
     layout: 'grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-10',
     formGroup: 'grid text-deep-blue dark:text-deep-gray',
-    formInput: 'bg-gray-100 dark:bg-deep-blue outline-none',
+    formInput: 'bg-gray-100 dark:bg-deep-blue outline-none dark:text-gray',
     formLabel : 'font-bold',
     formLine: ' border-[0.8px] border-deep-blue dark:border-deep-gray'
 }
