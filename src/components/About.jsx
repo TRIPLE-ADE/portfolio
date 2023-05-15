@@ -6,9 +6,7 @@ const About = () => (
     <div>
       <h2 className={`${section.heading} ${section.MarginY}`}>About</h2>
       <div className="sm:w-[70%] m-auto">
-        <p
-          className={`${section.textLgDefault} ${section.textPaddingY} ${section.textLarge} text-center`}
-        >
+        <p className={`${section.textLgDefault} ${section.textPaddingY} ${section.textLarge} text-center`}>
           Hi, I am Abdulrasheed. A Frontend Developer from Nigeria.
         </p>
         <p className={`${section.textPaddingY} ${section.text}`}>
@@ -25,7 +23,7 @@ const About = () => (
       </div>
       <p className={`${section.textPaddingY} mt-8 text-center text-deep-blue font-poppins text-2xl sm:text-4xl font-bold dark:text-gray`}>Skills</p>
       <div
-        className={`grid  grid-cols-[repeat(auto-fill,minmax(250px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] sm:w-[90%] md:w-[80%] m-auto`}
+        className={`grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] sm:w-[90%] md:w-[80%] m-auto`}
       >
         {Skills.map((skill) => (
           <div key={skill.id} className="flex items-center">

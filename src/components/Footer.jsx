@@ -1,13 +1,11 @@
 import { FootersLink } from "../constants";
 import { section } from "../style";
 const Footer = () => (
-  <section
-    className={`${section.padding} ${section.textLgDefault} flex items-center flex-col sm:flex-row`}
-  >
+  <section className={`${section.padding} ${section.textLgDefault} flex items-center flex-col sm:flex-row`} >
     <div>
       <p>Made by TripleA - Copyright 2023</p>
     </div>
-    <div className="flex sm:ml-auto gap-10">
+    <div className="flex gap-10 mt-5 sm:ml-auto sm:mt-0">
       {FootersLink.map((FooterLink) => {
         return (
           <a

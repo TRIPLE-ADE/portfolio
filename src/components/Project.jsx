@@ -11,9 +11,7 @@ const Project = () => (
             <img src={project.image} alt="" className="w-full" />
           </div>
           <div>
-            <p
-              className={`${section.textSmall} ${section.textLgDefault} ${section.textPaddingY}`}
-            >
+            <p className={`${section.textSmall} ${section.textLgDefault} ${section.textPaddingY}`}>
               {project.work}
             </p>
             <p className={`text-sm sm:text-lg ${section.textLgDefault}`}>

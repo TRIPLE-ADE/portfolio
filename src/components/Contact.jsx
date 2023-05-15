@@ -10,7 +10,7 @@ const Contact = () => {
       phoneNumber: '',
       message: ''
   }
-  
+  // Setting state handler
   const [form, setForm] = useState(initialValues)
   const [isLoading, setIsLoading] = useState(false)
   const [message, setMessage] = useState(null)
@@ -73,6 +73,7 @@ const Contact = () => {
     <section id="contact">
       <h2 className={`${section.heading} ${section.MarginY}`}> Contact </h2>
       {/* form section start */}
+      {/* form message */}
       {message && <p className="mb-5 text-center text-deep-blue dark:text-gray">{message}</p>}
       <form
         className="grid sm:grid-cols-2 gap-10 md:w-[80%] m-auto"
@@ -80,6 +81,7 @@ const Contact = () => {
         onSubmit={handleSubmit}
         method="POST"
       >
+        {/* formGroup */}
         <div className={`${section.formGroup}`}>
           <label 
             htmlFor="first-name" 
@@ -97,6 +99,7 @@ const Contact = () => {
           />
           <hr className={`${section.formLine}`} />
         </div>
+        {/* formGroup */}
         <div className={`${section.formGroup}`}>
           <label 
             htmlFor="last-name" 
@@ -114,6 +117,7 @@ const Contact = () => {
           />
           <hr className={`${section.formLine}`} />
         </div>
+        {/* formGroup */}
         <div className={`${section.formGroup}`}>
           <label 
             htmlFor="email" 
@@ -131,6 +135,7 @@ const Contact = () => {
             />
           <hr className={`${section.formLine}`} />
         </div>
+        {/* formGroup */}
         <div className={`${section.formGroup}`}>
           <label 
             htmlFor="phone-number" 
@@ -167,6 +172,8 @@ const Contact = () => {
           >
             Submit
           </button>
+          
+          {/* Loader for form submission */}
           {isLoading && <FaCircleNotch className={`text-3xl animate-spin text-deep-blue dark:text-deep-gray`}/>}
        </div>
       </form>
