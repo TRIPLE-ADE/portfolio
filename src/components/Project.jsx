@@ -8,13 +8,13 @@ const Project = () => (
       {Projects.map((project) => (
         <div key={project.id}>
           <div className="overflow-hidden hover:cursor-pointer hover:scale-105">
-            <img src={project.image} alt="" className="w-full" />
+            <img src={project.image} alt="" className="object-cover w-full h-52" />
           </div>
           <div>
             <p className={`${section.textSmall} ${section.textLgDefault} ${section.textPaddingY}`}>
               {project.work}
             </p>
-            <p className={`text-sm sm:text-lg ${section.textLgDefault}`}>
+            <p className={`sm:text-sm text-xs text-deep-green dark:text-deep-gray`}>
               {project.name}
             </p>
             <p></p>

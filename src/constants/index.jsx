@@ -1,4 +1,4 @@
-import { html, css, js, tailwind, react, project } from "../assets";
+import { html, css, js, tailwind, react, main, mentor, music, crypto, digisec,bank } from "../assets";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 export const NavLinks = [
   {
@@ -54,49 +54,49 @@ export const Skills = [
 export const Projects = [
   {
     id: 1,
-    image: project,
-    name: "Project",
-    work: "Frontend Development",
+    image: digisec,
+    name: "HTML | CSS | JavaScript",
+    work: "Digital Security",
     github: "",
     live: "",
   },
   {
     id: 2,
-    image: project,
-    name: "Project",
-    work: "Frontend Development",
+    image: main,
+    name: "HTML | CSS | JavaScript",
+    work: "Zuri Replica",
     github: "",
     live: "",
   },
   {
     id: 3,
-    image: project,
-    name: "Project",
-    work: "Frontend Development",
+    image: crypto,
+    name: "HTML | CSS | JavaScript",
+    work: "Crypto-Currency",
     github: "",
     live: "",
   },
   {
     id: 4,
-    image: project,
-    name: "Project",
-    work: "Frontend Development",
+    image: music,
+    name: "HTML | CSS | JavaScript",
+    work: "MusicApp",
     github: "",
     live: "",
   },
   {
     id: 5,
-    image: project,
-    name: "Project",
-    work: "Frontend Development",
+    image: mentor,
+    name: "React | Tailwind-CSS | Firebase",
+    work: "MentorApp",
     github: "",
     live: "",
   },
   {
     id: 6,
-    image: project,
-    name: "Project",
-    work: "Frontend Development",
+    image: bank,
+    name: "React | Tailwind-CSS",
+    work: "HooBank",
     github: "",
     live: "",
   },

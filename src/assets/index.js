@@ -11,7 +11,13 @@ import css from './css.svg';
 import js from './js.svg';
 import tailwind from './tailwind.svg';
 import react from './react.svg';
-import project from './project.png';
+import bank from './bank.png';
+import music from './music.png';
+import main from './main.png';
+import crypto from './crypto.png';
+import mentor from './mentor.png';
+import digisec from './digisec.png';
+
 
 
 
@@ -29,5 +35,11 @@ export {
     tailwind,
     react,
     divider,
-    project
+    bank,
+    music,
+    main,
+    crypto,
+    mentor,
+    digisec
+
 }

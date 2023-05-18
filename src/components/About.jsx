@@ -6,22 +6,29 @@ const About = () => (
     <div>
       <h2 className={`${section.heading} ${section.MarginY}`}>About</h2>
       <div className="sm:w-[70%] m-auto">
-        <p className={`${section.textLgDefault} ${section.textPaddingY} ${section.textLarge} text-center`}>
-          Hi, I am Abdulrasheed. A Frontend Developer from Nigeria.
+        <p
+          className={`${section.textSmall} ${section.textPaddingY} ${section.textLarge} text-center`}
+        >
+          Hi, I am Abdulrasheed Abdulsalam. A student of Federal University of Technology and a member of Microsoft ADC Student League(MASL). 
         </p>
         <p className={`${section.textPaddingY} ${section.text}`}>
-          My passion for building interactive websites has led me to become a
-          dedicated and hard-working front-end developer with over a year of
-          experience. My proven track record of designing interactive and
-          SEO-friendly websites will add value to your business. The
-          implementation of designs is done in collaboration with product
-          designers and web developers. In addition to my technical skills, I
-          also have excellent interpersonal skills and a strong sense of
-          teamwork. To grow and expand my knowledge, I enjoy solving problems
-          and facing challenges.
+          A Frontend Developer with a strong passion for building 
+          interactive websites, I have transformed into a dedicated and diligent 
+          front-end developer, accumulating over a year of valuable experience. 
+          My expertise lies in designing websites that are both engaging and optimized 
+          for search engines, ensuring a positive impact on your business. Collaborating
+          closely with product designers and web developers, I bring ideas to
+          life through seamless implementation. Beyond technical proficiency, I
+          excel in interpersonal skills and thrive in team environments. My
+          enthusiasm for problem-solving and embracing challenges drives my
+          constant growth and knowledge expansion.
         </p>
       </div>
-      <p className={`${section.textPaddingY} mt-8 text-center text-deep-blue font-poppins text-2xl sm:text-4xl font-bold dark:text-gray`}>Skills</p>
+      <p
+        className={`${section.textPaddingY} mt-8 text-center text-deep-blue font-poppins text-2xl sm:text-4xl font-bold dark:text-gray`}
+      >
+        Skills
+      </p>
       <div
         className={`grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] sm:w-[90%] md:w-[80%] m-auto`}
       >
