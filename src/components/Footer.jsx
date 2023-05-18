@@ -6,6 +6,7 @@ const Footer = () => (
       <p>Made by TripleA - Copyright 2023</p>
     </div>
     <div className="flex gap-10 mt-5 sm:ml-auto sm:mt-0">
+      {/* mapping through FooterLink array of objects  */}
       {FootersLink.map((FooterLink) => {
         return (
           <a

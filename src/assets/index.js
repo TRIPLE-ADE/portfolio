@@ -11,12 +11,12 @@ import css from './css.svg';
 import js from './js.svg';
 import tailwind from './tailwind.svg';
 import react from './react.svg';
-import bank from './bank.png';
-import music from './music.png';
-import main from './main.png';
-import crypto from './crypto.png';
-import mentor from './mentor.png';
-import digisec from './digisec.png';
+import bank from './bank.jpg';
+import music from './music.jpg';
+import main from './main.jpg';
+import crypto from './crypto.jpg';
+import mentor from './mentor.jpg';
+import digisec from './digisec.jpg';
 
 
 
