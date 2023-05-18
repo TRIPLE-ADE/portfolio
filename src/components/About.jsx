@@ -7,7 +7,7 @@ const About = () => (
       <h2 className={`${section.heading} ${section.MarginY}`}>About</h2>
       <div className="sm:w-[70%] m-auto">
         <p
-          className={`${section.textSmall} ${section.textPaddingY} ${section.textLarge} text-center`}
+          className={`${section.textSmall} ${section.textPaddingY} ${section.textLarge} text-center text-deep-gray`}
         >
           Hi, I am Abdulrasheed Abdulsalam. A student of Federal University of Technology and a member of Microsoft ADC Student League(MASL). 
         </p>
