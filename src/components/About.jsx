@@ -9,7 +9,7 @@ const About = () => (
         <p
           className={`${section.textSmall} ${section.textPaddingY} ${section.textLarge} text-center text-deep-gray`}
         >
-          Hi, I am Abdulrasheed Abdulsalam. A student of Federal University of Technology and a member of Microsoft ADC Student League(MASL). 
+          Hi, I am Abdulrasheed Abdulsalam. A student of Federal University of Technology Minna and a member of Microsoft ADC Student League(MASL). 
         </p>
         <p className={`${section.textPaddingY} ${section.text}`}>
           A Frontend Developer with a strong passion for building 
