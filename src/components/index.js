@@ -4,6 +4,7 @@ import About from './About';
 import Project from './Project';
 import Contact from './Contact';
 import Footer from './Footer';
+import Loader from './Loader';
 
 export {
     NavBar,
@@ -12,4 +13,5 @@ export {
     Project,
     Contact,
     Footer,
+    Loader,
 }
