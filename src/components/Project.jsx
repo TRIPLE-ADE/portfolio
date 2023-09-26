@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Project = () => (
   <section id="projects">
     <h2 className={`${section.heading} ${section.MarginY}`}> Project </h2>
-    <div className={`${section.layout}`}>
+    <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10`}>
      {/* mapping through projects array of objects  */}
       {Projects.map((project) => (
         <div key={project.id}>

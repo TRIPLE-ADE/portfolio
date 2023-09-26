@@ -5,9 +5,9 @@ const About = () => (
   <section id="about" className="relative">
     <div>
       <h2 className={`${section.heading} ${section.MarginY}`}>About</h2>
-      <div className="sm:w-[70%] m-auto">
+      <div className="m-auto ">
         <p
-          className={`${section.textSmall} ${section.textPaddingY} ${section.textLarge} text-center text-deep-gray`}
+          className={`${section.textSmall} ${section.textPaddingY} ${section.textLarge} text-center text-deep-gray sm:w-[90%] md:w-[80%] m-auto`}
         >
           Hi, I am Abdulrasheed Abdulsalam. A student of Federal University of Technology Minna and a member of Microsoft ADC Student League(MASL). 
         </p>
@@ -30,7 +30,7 @@ const About = () => (
         Skills
       </p>
       <div
-        className={`grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] sm:w-[90%] md:w-[80%] m-auto`}
+        className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-auto`}
       >
         {Skills.map((skill) => (
           <div key={skill.id} className="flex items-center">

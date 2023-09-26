@@ -13,7 +13,7 @@ const Hero = () => (
         </h1>
         <p className={`${section.textPaddingY} ${section.textLgDefault} ${section.textSmall}`}>
           <Typewriter
-            speed={100}
+            speed={50}
             text={["Frontend Developer"]}
             loop={false}
             cursor={false}
