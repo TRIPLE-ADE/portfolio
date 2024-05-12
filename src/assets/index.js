@@ -4,19 +4,21 @@ import moon1 from './moon1.svg';
 import sun from './sun.svg';
 import emoji from './Emoji.svg'
 import resume from './Resume.pdf'
-import hero from './hero.png';
 import divider from './divider.png';
-import html from './html.svg';
-import css from './css.svg';
 import js from './js.svg';
+import ts from './ts.svg'
+import cSharp from './c-sharp.svg'
+import next from './next.svg'
+import dotnet from './dot-net.svg'
 import tailwind from './tailwind.svg';
 import react from './react.svg';
-import bank from './bank.jpg';
-import music from './music.jpg';
 import main from './main.jpg';
-import crypto from './crypto.jpg';
 import mentor from './mentor.jpg';
 import digisec from './digisec.jpg';
+import findcare from './findcare.png'
+import aitext from './ai-text-summarizer.png'
+import formdata from './csv-form-data.png'
+import logicswap from './logicswap.png'
 
 
 
@@ -28,18 +30,19 @@ export {
     sun,
     emoji,
     resume,
-    hero,
-    html, 
-    css, 
     js, 
+    ts,
+    cSharp,
+    next,
+    dotnet,
     tailwind,
     react,
     divider,
-    bank,
-    music,
     main,
-    crypto,
     mentor,
-    digisec
-
+    digisec,
+    findcare,
+    aitext,
+    formdata,
+    logicswap,
 }
