@@ -32,12 +32,12 @@ const Project = () => (
               </p>
               <div className="justify-self-end">
                 {project.github && (
-                  <a href={project.github} target="_blank" rel="noreferrer">
+                  <a href={project.github} target="_blank" rel="noreferrer" aria-label={project.githubLinkText}>
                     <FaGithub className="inline text-2xl mr-2" />{" "}
                   </a>
                 )}
                 {project.live && (
-                  <a href={project.live} target="_blank" rel="noreferrer">
+                  <a href={project.live} target="_blank" rel="noreferrer" aria-label={project.liveLinkText}>
                     <FaExternalLinkAlt className="inline text-2xl" />
                   </a>
                 )}
@@ -51,8 +51,9 @@ const Project = () => (
       to="/archived-projects"
       className={`${section.button} button`}
       unstable_viewTransition
+      aria-label="Go to archived projects"
     >
-      See More
+      See Archived Projects
     </Link>
     <div className="absolute -left-40 ">
       <img src={divider} alt="page-divider" />

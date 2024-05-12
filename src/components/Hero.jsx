@@ -33,7 +33,7 @@ const Hero = () => (
           loop={true}
         />
       </p>
-      <a href={resume} download className={`${section.button} button`}>
+      <a href={resume} aria-label="Download my CV" download className={`${section.button} button`}>
         Download CV
       </a>
     </div>
