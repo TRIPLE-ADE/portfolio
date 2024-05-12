@@ -12,6 +12,7 @@ const Footer = () => (
           <a
             key={FooterLink.id}
             href={FooterLink.link}
+            aria-label={FooterLink.label}
             target="_blank"
             rel="noreferrer"
             className="text-xl sm:text-2xl"

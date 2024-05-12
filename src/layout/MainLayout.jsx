@@ -26,16 +26,16 @@ const MainLayout = ({ children }) => {
       {/* {isLoading ? (
         <Loader />
       ) : ( */}
-    <div className="transition-all duration-1000 dark:bg-deep-blue text-gray font-poppins">
-      <header>
-        <NavBar handleClick={handleClick} darkMode={darkMode} />
-      </header>
-      <main className={`${section.padding}`}>{children}</main>
-      <footer>
-        <hr />
-        <Footer />
-      </footer>
-    </div>
+      <div className="transition-all duration-1000 dark:bg-deep-blue text-gray font-poppins">
+        <header>
+          <NavBar handleClick={handleClick} darkMode={darkMode} />
+        </header>
+        <main className={`${section.padding}`}>{children}</main>
+        <footer>
+          <hr />
+          <Footer />
+        </footer>
+      </div>
       {/* )} */}
     </div>
   );

@@ -4,7 +4,6 @@ import { logo, darkLogo, sun, moon1 } from "../assets";
 import PropTypes from "prop-types";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { section } from "../style";
-import { Link } from "react-router-dom";
 
 function NavBar({ handleClick, darkMode }) {
   // toggle state handler
@@ -29,7 +28,7 @@ function NavBar({ handleClick, darkMode }) {
         <ul className="flex-col hidden gap-4 font-bold sm:flex text-deep-blue dark:text-gray font-quicksand sm:flex-row">
           {NavLinks.map((navLink) => (
             <li key={navLink.id}>
-              <a href={`/${navLink.link}`}>{navLink.title}</a>
+              <a href={`/${navLink.link}`} aria-label={navLink.label}>{navLink.title}</a>
             </li>
           ))}
         </ul>
@@ -74,7 +73,7 @@ function NavBar({ handleClick, darkMode }) {
           <ul>
             {NavLinks.map((navLink) => (
               <li key={navLink.id} className="my-10">
-                <a href={navLink.link} onClick={handleModal}>
+                <a href={navLink.link} aria-label={navLink.label} onClick={handleModal}>
                   {navLink.title}
                 </a>
               </li>
@@ -86,6 +85,7 @@ function NavBar({ handleClick, darkMode }) {
                 <a
                   key={FooterLink.id}
                   href={FooterLink.link}
+                  aria-label={FooterLink.label}
                   target="_blank"
                   rel="noreferrer"
                   className="text-xl sm:text-2xl"

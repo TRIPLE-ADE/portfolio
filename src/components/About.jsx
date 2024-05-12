@@ -27,21 +27,6 @@ const About = () => (
           Let's collaborate to turn your digital vision into a reality that
           resonates with your audience and drives your business forward!
         </p>
-        {/* <p className={`${section.textPaddingY} ${section.text}`}>
-          Hi, I am Abdulrasheed Abdulsalam. A Software Engineer with a strong
-          passion for building interactive websites, I have transformed into a
-          dedicated and diligent Software developer, accumulating over a year of
-          valuable experience.
-        </p>
-        <p className={`${section.textPaddingY} ${section.text}`}>
-          My expertise lies in designing websites that are both engaging and
-          optimized for search engines, ensuring a positive impact on your
-          business. Collaborating closely with designers and developers, I bring
-          ideas to life through seamless implementation. Beyond technical
-          proficiency, I excel in interpersonal skills and thrive in team
-          environments. My enthusiasm for problem-solving and embracing
-          challenges drives my constant growth and knowledge expansion.
-        </p> */}
         <p
           className={`${section.textPaddingY} mt-8 text-center text-deep-blue font-poppins text-2xl sm:text-4xl font-bold dark:text-gray`}
         >
