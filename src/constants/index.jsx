@@ -1,4 +1,4 @@
-import { js, tailwind, react, main, mentor, digisec, ts, next, cSharp, dotnet, aitext, findcare, formdata, logicswap } from "../assets";
+import { js, tailwind, react, mentor, digisec, ts, next, cSharp, dotnet, aitext, findcare, formdata, logicswap } from "../assets";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 export const NavLinks = [
